@@ -1,0 +1,14 @@
+{
+  "name": "kodnest-careers",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "pnpm dlx turbo run dev",
+    "build": "pnpm dlx turbo run build",
+    "start": "pnpm dlx turbo run start"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
